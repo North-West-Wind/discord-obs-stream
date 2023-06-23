@@ -1,9 +1,11 @@
 {
   "name": "discord-obs-stream",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Stream OBS output to Discord.",
   "main": "dist/index.js",
-  "bin": "dist/index.js",
+  "bin": {
+    "discord-obs-stream": "dist/index.js"
+  },
   "type": "module",
   "types": "dist/index.d.ts",
   "files": [
@@ -26,5 +28,18 @@
     "discord.js-selfbot-v13": "^2.14.5",
     "env-paths": "^3.0.0",
     "inquirer": "^9.2.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/North-West-Wind/discord-obs-stream.git"
+  },
+  "keywords": [
+    "discord",
+    "obs-studio",
+    "stream"
+  ],
+  "bugs": {
+    "url": "https://github.com/North-West-Wind/discord-obs-stream/issues"
+  },
+  "homepage": "https://github.com/North-West-Wind/discord-obs-stream#readme"
 }
